@@ -4,7 +4,7 @@ config global
         option recheck_interval '10'
         option modules_retries '10'
 
-config entry 'Businesshours'
+config entry 'Workday'
         option enabled '0'
         option daysofweek 'Monday Tuesday Wednesday Thursday Friday'
         option starttime '06:00'
